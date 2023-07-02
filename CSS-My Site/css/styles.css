@@ -1,0 +1,110 @@
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+span{
+    text-underline-offset: 5;
+    text-decoration: underline;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1{
+    color: #66bfbf;
+    line-height: 2;
+    font-size: 600%;
+    /* 16px == 100% == 1em */
+    /* 100% refers to the 16px and if we want to increase the size we can use accordingly (600% is nearly 96px) */
+    margin: 120px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    ;
+}
+h2{
+    color: #66bfbf;
+    font-weight: 800;
+    font-size: 2.5rem; 
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* rem is independent of other sizes and works like px  */
+    font-family: 'Montserrat', sans-serif;
+  
+}
+h3{
+    font-family: 'Mallanna', sans-serif;
+    color: #56bebe;
+}
+.top{
+    background-color: #d1e5e5;
+   
+}
+.profile{
+    width: 30%;
+    margin: 35px auto 35px auto;
+}
+.top-cloud{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 350px;
+}
+.mountain{
+    margin-bottom: 0;
+}
+#propic{
+    margin-top: 20px; 
+    width: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.remote{
+    margin-right: 5%;
+    float: left;
+    width: 25%;
+}
+.glass{
+    margin-left: 5%;
+    float: right;
+    width: 25%;
+}
+/* .glass-description{
+    clear: right;
+} */
+
+.contact-me{
+    width: 40%;
+    margin: 0 auto 100px auto;
+}
+.contact-para{
+    margin-bottom: 60px;
+}
+.btn{
+    background-color:#66bfbf;
+    padding: 20px;
+    color: white;
+}
+.bottom-container{
+    background-color: #56bebe;
+    margin-bottom: 0;
+
+    padding: 50px;
+}
+.footer-link{
+    color: white ;
+    margin: 50px;
+    line-height: 80px;
+}
